@@ -1,3 +1,4 @@
+
 class Move {
     Square start;
     Square landing;
@@ -13,9 +14,6 @@ class Move {
         landing = y;
     }
 
-    public Move(){
-
-    }
 
     public Square getStart(){
         return start;
